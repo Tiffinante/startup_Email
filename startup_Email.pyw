@@ -18,7 +18,6 @@ class Email:
 
 
 def wait_for_internet_connection():
-    # https://youtu.be/H5xpMj_-vAo
     while True:
         try:
             socket.create_connection(('google.com', 80))
